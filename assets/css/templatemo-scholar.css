@@ -1683,3 +1683,12 @@ body {
     position: relative;
     z-index: 99999 !important;
 }
+
+
+/* Asegurar que el contenedor de botones esté por encima del carrusel */
+.owl-carousel .item .buttons {
+    position: relative;
+    z-index: 999999 !important;
+    pointer-events: auto !important;
+}
+
